@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(27, 27, 54);
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+}
+#founder {
+  margin: 25px;
+  color: #ffb200;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#navbar ul {
+  margin: 25px;
+  list-style: none;
+}
+#navbar li {
+  display: inline-block;
+}
+#navbar a {
+  margin: 20px 40px;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: orangered;
+  border-radius: 40px;
+}
+#overview {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(27, 27, 54);
+  margin-top: -200px;
+  width: 100%;
+  height: 400px;
+  transform: skew(0, -10deg);
+}
+#title {
+  color: white;
+  margin-top: 150px;
+  margin-left: 80px;
+  transform: skew(0, 10deg);
+  font-size: 50px;
+}
+#banner {
+  background-image: url(./images/top.jpg);
+  background-size: cover;
+  margin-top: 300px;
+  margin-right: 60px;
+  transform: skew(0, 10deg);
+  width: 700px;
+  height: 250px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.368);
+}
+.param {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#container {
+  margin-bottom: 30px;
+  margin-top: 270px;
+  width: 100%;
+  height: 1600px;
+}
+.card {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+#img1 {
+  background-image: url(/images/mid1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+#img2 {
+  background-image: url(/images/mid2.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+#img3 {
+  background-image: url(/images/mid3.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.doc {
+  font-size: 25px;
+  margin: 40px;
+}
+.doc > div {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.doc > p {
+  color: white;
+  background-color: green;
+  width: 84px;
+  height: 40px;
+}
+.btn {
+  color: white;
+  margin-top: 20px;
+  background-color: orangered;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#flex-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 400%;
+}
+.item {
+  margin: 20px;
+  width: 460px;
+}
+.item-img {
+  width: 460px;
+  height: 200px;
+}
+#item1-img {
+  background-image: url(./images/bot1.jpg);
+  background-size: cover;
+}
+#item2-img {
+  background-image: url(./images/bot2.jpg);
+  background-size: cover;
+}
+#item3-img {
+  background-image: url(./images/bot3.jpg);
+  background-size: cover;
+}
+.info {
+  margin: 30px 0px;
+}
+.info > div {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.item a {
+  color: orangered;
+}
+#top-footer {
+  color: rgb(27, 27, 54);
+  background-color: #ffb200;
+  width: 100%;
+  height: 300px;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#top-footer input {
+  background-color: rgb(27, 27, 54);
+  color: white;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#bot-footer {
+  color: white;
+  background-color: rgb(27, 27, 54);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  width: 100%;
+  height: 300px;
+}
+#left-part {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+#left-part ul {
+  list-style: none;
+}
+
+#left-part li {
+  margin-top: 30px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#right-part {
+  margin-top: 80px;
+}
+#right-part div {
+  margin-bottom: 20px;
+}
+#mail-box {
+  background-color: gray;
+  border: none;
+  width: 200px;
+  height: 40px;
+  margin-left: 20px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}

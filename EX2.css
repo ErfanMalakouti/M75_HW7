@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(13, 16, 83);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.523);
+}
+#links ul {
+  list-style: none;
+}
+#links li {
+  margin: 10px;
+  display: inline-block;
+}
+#links a {
+  text-decoration: none;
+  color: white;
+}
+#links a:hover {
+  color: yellow;
+}
+#search-box {
+  color: white;
+  margin: 30px 20px 10px 0px;
+}
+#search-box:hover {
+  color: yellow;
+  cursor: pointer;
+}
+#container {
+  width: 85%;
+  height: 1000px;
+  margin: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.item1 {
+  display: flex;
+  width: 400px;
+  height: 450px;
+  margin: 0px 15px;
+  flex-flow: column;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.475);
+}
+.title1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  width: 400px;
+  height: 80px;
+}
+.title1 > div {
+  margin: 10px;
+}
+.bio {
+  color: grey;
+  font-size: 15px;
+}
+.info1 {
+  background-color: white;
+  width: 400px;
+  height: 150px;
+}
+#image1 {
+  background-image: url(./images/rose1.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 250px;
+}
+#image2 {
+  background-image: url(./images/rose2.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 250px;
+}
+#image3 {
+  background-image: url(./images/rose3.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 250px;
+}
+.caption {
+  margin: 20px 10px;
+}
+.buttons input {
+  font-size: 20px;
+  color: grey;
+  background-color: transparent;
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+.buttons input:hover {
+  color: black;
+  background-color: silver;
+}
+#item2 {
+  background-color: white;
+  display: flex;
+  width: 1260px;
+  height: 230px;
+  margin: 0px 15px;
+  flex-flow: column;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.479);
+}
+#title2 {
+  margin: 20px;
+  font-weight: bold;
+}
+#document2 {
+  margin: 10px 60px;
+  color: grey;
+}
+#mid-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+#mid-buttons input {
+  color: dodgerblue;
+  background-color: transparent;
+  margin: 30px;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+#mid-buttons input:hover {
+  background-color: silver;
+}
+#item3 {
+  background-color: white;
+  display: flex;
+  width: 850px;
+  height: 240px;
+  margin: 0px 15px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.466);
+}
+#item3 > div {
+  margin: 10px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+#tex-box {
+  width: 400px;
+  height: 160px;
+}
+#box1 {
+  background-color: #ffc400;
+  width: 400px;
+  height: 170px;
+  margin: 10px;
+}
+#item4 {
+  background-color: white;
+  display: flex;
+  width: 380px;
+  height: 240px;
+  margin: 0px 15px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.468);
+}
+#item4 > div {
+  margin: 10px;
+  font-weight: normal;
+}
+.bio1 {
+  color: grey;
+  font-size: 20px;
+}
+#box2 {
+  background-color: #ffc400;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+}

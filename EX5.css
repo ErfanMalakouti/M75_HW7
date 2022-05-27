@@ -1,0 +1,181 @@
+#container {
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 1300px;
+  height: 450px;
+}
+input {
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  height: 100px;
+  margin: 40px;
+  cursor: pointer;
+}
+input:nth-child(1) {
+  background-color: dodgerblue;
+  border: none;
+}
+input:nth-child(1):hover {
+  animation: police 0.5s linear infinite alternate;
+}
+input:nth-child(2) {
+  background-color: teal;
+  border: none;
+}
+input:nth-child(2):hover {
+  animation: police 0.5s linear infinite alternate;
+}
+input:nth-child(3) {
+  background-color: orange;
+  border: none;
+}
+input:nth-child(3):hover {
+  animation: police 0.5s linear infinite alternate;
+}
+input:nth-child(4) {
+  background-color: red;
+  border: none;
+}
+input:nth-child(4):hover {
+  animation: lighting 2s linear infinite alternate;
+}
+input:nth-child(5) {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 100px;
+}
+input:nth-child(5):hover {
+  animation: lighting 2s linear infinite alternate;
+}
+input:nth-child(6) {
+  background-color: teal;
+  border: none;
+  border-radius: 100px;
+}
+input:nth-child(6):hover {
+  animation: lighting 2s linear infinite alternate;
+}
+input:nth-child(7) {
+  background-color: orange;
+  border: none;
+  border-radius: 100px;
+  transform: rotateX(0deg);
+}
+input:nth-child(7):hover {
+  transition: all 2s linear;
+  transform: rotateX(360deg);
+}
+input:nth-child(8) {
+  background-color: red;
+  border: none;
+  border-radius: 100px;
+  transform: rotateX(0deg);
+}
+input:nth-child(8):hover {
+  transition: all 2s linear;
+  transform: rotateX(360deg);
+}
+input:nth-child(9) {
+  border: 5px solid dodgerblue;
+  color: dodgerblue;
+  transform: rotateX(0deg);
+}
+input:nth-child(9):hover {
+  transition: all 2s linear;
+  transform: rotateX(360deg);
+}
+input:nth-child(10) {
+  border: 5px solid teal;
+  color: teal;
+  background: linear-gradient(to left, white 50%, rgb(255, 0, 0) 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+input:nth-child(10):hover {
+  background-position: left;
+}
+input:nth-child(11) {
+  border: 5px solid orange;
+  color: orange;
+  background: linear-gradient(to left, white 50%, rgb(0, 191, 255) 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+input:nth-child(11):hover {
+  background-position: left;
+}
+input:nth-child(12) {
+  border: 5px solid red;
+  color: red;
+  background: linear-gradient(to left, white 50%, rgb(80, 2, 106) 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+input:nth-child(12):hover {
+  background-position: left;
+}
+@keyframes police {
+  0% {
+    background-color: blue;
+  }
+  20% {
+    background-color: red;
+    transform: scale(0.75);
+    transform: rotate(4deg);
+  }
+  40% {
+    background-color: blue;
+    transform: scale(1.25);
+    transform: rotate(-5deg);
+  }
+  60% {
+    background-color: red;
+    transform: scale(0.9);
+    transform: rotate(-4deg);
+  }
+  80% {
+    background-color: blue;
+    transform: scale(1.15);
+    transform: rotate(5deg);
+  }
+  100% {
+    background-color: red;
+    transform: scale(0.85);
+    transform: rotate(-4deg);
+  }
+}
+@keyframes lighting {
+  0% {
+    background-color: blue;
+    transform: scaleX(0.75);
+  }
+  20% {
+    background-color: gold;
+    transform: scaleX(1);
+    transform: rotate(4deg);
+  }
+  40% {
+    background-color: lime;
+    transform: scaleX(1.25);
+  }
+  60% {
+    background-color: red;
+    transform: scaleX(1.25);
+    transform: rotate(-4deg);
+  }
+  80% {
+    background-color: pink;
+    transform: scaleX(1);
+  }
+  100% {
+    background-color: turquoise;
+    transform: scaleX(0.75);
+    transform: rotate(4deg);
+  }
+}
